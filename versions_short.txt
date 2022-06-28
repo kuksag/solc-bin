@@ -1,0 +1,2 @@
+solc-v0.8.15-nightly.2022.5.27+commit.095cc647
+solc-v0.8.14+commit.80d49f37

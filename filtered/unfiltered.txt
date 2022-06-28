@@ -1,0 +1,1 @@
+solc-v0.5.11-nightly.2019.8.6+commit.cd563e52
