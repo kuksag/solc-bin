@@ -35,5 +35,6 @@ jobs:
           git config --global user.name "${{ env.CI_COMMIT_AUTHOR }}"
           git config --global user.email "username@users.noreply.github.com"
           git pull
-          git commit -a -m "${{ env.CI_COMMIT_MESSAGE }}"
+          git add vyper.list.json
+          git commit -m "${{ env.CI_COMMIT_MESSAGE }}"
           git push
