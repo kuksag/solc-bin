@@ -25,7 +25,7 @@ jobs:
           key: ${{ runner.os }}-vyper-bin
 
       - name: Build vyper list
-        run: /vyper_fetch.sh vyper.list.json
+        run: vyper_fetch.sh vyper.list.json
 
       - name: GIT commit and push all changed files
         env:
